@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+	<metadata>
+		<id>FlockBuddyWidgets</id>
+		<version>2.0.0</version>
+		<title>FlockBuddyWidgets</title>
+		<authors>dmanning23</authors>
+		<owners>dmanning23</owners>
+		<projectUrl>https://github.com/dmanning23/FlockBuddyWidgets</projectUrl>
+		<licenseUrl>https://github.com/dmanning23/FlockBuddyWidgets/blob/master/LICENSE.txt</licenseUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>A set of screens and widgets for the FlockBuddy</description>
+		<releaseNotes />
+		<copyright>Copyright 2016</copyright>
+		<tags>pcl, windows phone, winphone, android, ios, windows universal, monogame</tags>
+		<dependencies>
+
+			<!--Xamarin.Android-->
+			<group targetFramework="MonoAndroid10">
+				<dependency id="MonoGame.Framework.Android" version="3.7"/>
+			</group>
+
+			<!--Xamarin.iOS Unified-->
+			<group targetFramework="Xamarin.iOS10">
+				<dependency id="MonoGame.Framework.iOS" version="3.7"/>
+			</group>
+
+			<group targetFramework="net451">
+				<dependency id="MonoGame.Framework.WindowsDX" version="3.7"/>
+			</group>
+
+		</dependencies>
+	</metadata>
+	<files>
+
+		<!--Xamarin.Android-->
+		<file src="FlockBuddyWidgets.Droid\bin\Release\FlockBuddyWidgets.Droid.pdb" target="lib\MonoAndroid10\FlockBuddyWidgets.Droid.pdb" />
+		<file src="FlockBuddyWidgets.Droid\bin\Release\FlockBuddyWidgets.Droid.dll" target="lib\MonoAndroid10\FlockBuddyWidgets.Droid.dll" />
+
+		<!--Xamarin.iOS Unified-->
+		<file src="FlockBuddyWidgets.iOS\bin\Release\FlockBuddyWidgets.iOS.pdb" target="lib\Xamarin.iOS10\FlockBuddyWidgets.iOS.pdb" />
+		<file src="FlockBuddyWidgets.iOS\bin\Release\FlockBuddyWidgets.iOS.dll" target="lib\Xamarin.iOS10\FlockBuddyWidgets.iOS.dll" />
+
+		<!--WindowsDX-->
+		<file src="FlockBuddyWidgets.WindowsDX\bin\Release\FlockBuddyWidgets.WindowsDX.pdb" target="lib\net451\FlockBuddyWidgets.WindowsDX.pdb" />
+		<file src="FlockBuddyWidgets.WindowsDX\bin\Release\FlockBuddyWidgets.WindowsDX.dll" target="lib\net451\FlockBuddyWidgets.WindowsDX.dll" />
+
+	</files>
+</package>

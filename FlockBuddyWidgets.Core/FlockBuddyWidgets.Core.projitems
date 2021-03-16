@@ -6,7 +6,7 @@
     <SharedGUID>e4fedb82-01f4-48c5-b158-5459dd33bb44</SharedGUID>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
-    <Import_RootNamespace>FlockBuddyWidgets</Import_RootNamespace>
+    <Import_RootNamespace>FlockBuddyWidgets.Core</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Controls\BehaviorControl.cs" />
