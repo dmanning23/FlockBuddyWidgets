@@ -9,10 +9,10 @@
 		<projectUrl>https://github.com/dmanning23/FlockBuddyWidgets</projectUrl>
 		<licenseUrl>https://github.com/dmanning23/FlockBuddyWidgets/blob/master/LICENSE.txt</licenseUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<description>A set of screens and widgets for the FlockBuddy</description>
+		<description>A set of screens and widgets for building FlockBuddy MonoGame apps</description>
 		<releaseNotes />
 		<copyright>Copyright 2016</copyright>
-		<tags>pcl, windows phone, winphone, android, ios, windows universal, monogame</tags>
+		<tags>android, ios, monogame</tags>
 		<dependencies>
 
 			<!--Xamarin.Android-->
