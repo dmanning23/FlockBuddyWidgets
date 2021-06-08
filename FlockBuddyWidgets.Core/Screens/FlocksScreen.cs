@@ -51,7 +51,10 @@ namespace FlockBuddyWidgets
 		public void AddFlock()
 		{
 			//create the flock
-			var flockManager = new FlockManager(new Flock());
+			var flockManager = new FlockManager(new Flock()
+			{
+				UseWorldWrap = true
+			});
 			Flocks.Add(flockManager);
 
 			flockManager.Flock.CellSpace = new CellSpacePartition<IMover>(Vector2.Zero, 80, 16, 32);
