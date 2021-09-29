@@ -6,11 +6,11 @@ namespace FlockBuddyWidgets
 {
 	public class BehaviorControl : StackLayout
 	{
-		public EBehaviorType Behavior { get; private set; }
+		public BehaviorType Behavior { get; private set; }
 		readonly BehaviorsScreen _behaviorScreen;
 		public FlockManager Flock { get; private set; }
 
-		public BehaviorControl(FlockManager flock, BehaviorsScreen behaviorScreen, EBehaviorType behavior) : base(StackAlignment.Left)
+		public BehaviorControl(FlockManager flock, BehaviorsScreen behaviorScreen, BehaviorType behavior) : base(StackAlignment.Left)
 		{
 			Flock = flock;
 			_behaviorScreen = behaviorScreen;

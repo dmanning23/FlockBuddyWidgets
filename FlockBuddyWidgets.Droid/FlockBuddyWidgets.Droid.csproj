@@ -58,7 +58,7 @@
       <Version>2.0.4</Version>
     </PackageReference>
     <PackageReference Include="FlockBuddy">
-      <Version>2.0.14</Version>
+      <Version>2.0.18</Version>
     </PackageReference>
     <PackageReference Include="HadoukInput">
       <Version>2.0.33</Version>
@@ -67,7 +67,7 @@
       <Version>2.0.15</Version>
     </PackageReference>
     <PackageReference Include="MenuBuddy">
-      <Version>2.0.88</Version>
+      <Version>2.0.92</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="28.0.0.3" />
   </ItemGroup>

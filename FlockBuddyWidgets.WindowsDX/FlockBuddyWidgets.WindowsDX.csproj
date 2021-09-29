@@ -46,13 +46,13 @@
       <HintPath>..\packages\FilenameBuddy.2.0.8\lib\net452\FilenameBuddy.WindowsDX.dll</HintPath>
     </Reference>
     <Reference Include="FlockBuddy.WindowsDX, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\FlockBuddy.2.0.14\lib\net451\FlockBuddy.WindowsDX.dll</HintPath>
+      <HintPath>..\packages\FlockBuddy.2.0.18\lib\net451\FlockBuddy.WindowsDX.dll</HintPath>
     </Reference>
     <Reference Include="FontBuddyLib.WindowsDX, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\FontBuddy.2.0.21\lib\net451\FontBuddyLib.WindowsDX.dll</HintPath>
+      <HintPath>..\packages\FontBuddy.2.0.23\lib\net451\FontBuddyLib.WindowsDX.dll</HintPath>
     </Reference>
-    <Reference Include="FontStashSharp.MonoGame, Version=0.9.3.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\FontStashSharp.MonoGame.0.9.3\lib\net45\FontStashSharp.MonoGame.dll</HintPath>
+    <Reference Include="FontStashSharp.MonoGame, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontStashSharp.MonoGame.1.0.3\lib\net45\FontStashSharp.MonoGame.dll</HintPath>
     </Reference>
     <Reference Include="GameTimer.WindowsDX, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\GameTimer.2.2.0\lib\net452\GameTimer.WindowsDX.dll</HintPath>
@@ -67,7 +67,7 @@
       <HintPath>..\packages\MatrixExtensions.2.0.0\lib\net451\MatrixExtensions.WindowsDX.dll</HintPath>
     </Reference>
     <Reference Include="MenuBuddy.WindowsDX, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MenuBuddy.2.0.88\lib\net451\MenuBuddy.WindowsDX.dll</HintPath>
+      <HintPath>..\packages\MenuBuddy.2.0.92\lib\net451\MenuBuddy.WindowsDX.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Win32.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Win32.Primitives.4.3.0\lib\net46\Microsoft.Win32.Primitives.dll</HintPath>
@@ -120,11 +120,11 @@
     <Reference Include="StateMachineBuddy.WindowsDX, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\StateMachineBuddy.2.0.21\lib\net451\StateMachineBuddy.WindowsDX.dll</HintPath>
     </Reference>
-    <Reference Include="StbImageSharp, Version=2.22.5.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\StbImageSharp.2.22.5\lib\net45\StbImageSharp.dll</HintPath>
+    <Reference Include="StbImageSharp, Version=2.22.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\StbImageSharp.2.22.6\lib\net45\StbImageSharp.dll</HintPath>
     </Reference>
-    <Reference Include="StbTrueTypeSharp, Version=1.24.7.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\StbTrueTypeSharp.1.24.7\lib\net45\StbTrueTypeSharp.dll</HintPath>
+    <Reference Include="StbTrueTypeSharp, Version=1.24.8.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\StbTrueTypeSharp.1.24.8\lib\net45\StbTrueTypeSharp.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.AppContext, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">

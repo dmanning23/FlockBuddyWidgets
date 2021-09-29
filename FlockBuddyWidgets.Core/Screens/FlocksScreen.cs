@@ -1,5 +1,6 @@
 ﻿using CellSpacePartitionLib;
 using FlockBuddy;
+using FlockBuddy.Interfaces;
 using MenuBuddy;
 using Microsoft.Xna.Framework;
 using System.Collections.Generic;

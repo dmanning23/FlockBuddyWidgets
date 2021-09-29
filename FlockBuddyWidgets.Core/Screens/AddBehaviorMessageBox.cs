@@ -9,7 +9,7 @@ namespace FlockBuddyWidgets
 	public class AddBehaviorMessageBox : MessageBoxScreen
 	{
 		readonly FlockManager _flock;
-		Dropdown<EBehaviorType> _dropdown;
+		Dropdown<BehaviorType> _dropdown;
 		readonly BehaviorsScreen _behaviorScreen;
 
 		public AddBehaviorMessageBox(FlockManager flock, BehaviorsScreen behaviorScreen) : base("Select a behavior to add:", "")
@@ -28,7 +28,7 @@ namespace FlockBuddyWidgets
 			ControlStack.AddItem(new Shim() { Size = new Vector2(0, 16f) });
 
 			//create the dropdown
-			_dropdown = new Dropdown<EBehaviorType>(this)
+			_dropdown = new Dropdown<BehaviorType>(this)
 			{
 				Size = new Vector2(768f, 32f),
 				Horizontal = HorizontalAlignment.Center,
@@ -37,11 +37,11 @@ namespace FlockBuddyWidgets
 			};
 
 			//populate the dropdown
-			foreach (EBehaviorType behavior in Enum.GetValues(typeof(EBehaviorType)))
+			foreach (BehaviorType behavior in Enum.GetValues(typeof(BehaviorType)))
 			{
 				if (!_flock.HasBehavior(behavior))
 				{
-					var dropitem = new DropdownItem<EBehaviorType>(behavior, _dropdown)
+					var dropitem = new DropdownItem<BehaviorType>(behavior, _dropdown)
 					{
 						Vertical = VerticalAlignment.Center,
 						Horizontal = HorizontalAlignment.Center,

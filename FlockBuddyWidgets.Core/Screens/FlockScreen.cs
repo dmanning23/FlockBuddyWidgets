@@ -111,9 +111,9 @@ namespace FlockBuddyWidgets
 			});
 			addButton.OnClick += (obj, e) =>
 			{
-				Flock.AddBoid(_random.NextVector2(0f, 1280f, 0f, 720f),
-					_random.NextVector2(-1f, 1f, -1f, 1f).Normalized(),
-					_random.NextFloat(Flock.BoidWalkSpeed, Flock.BoidMaxSpeed));
+				var boid = Flock.AddBoid(_random.NextVector2(0f, 1280f, 0f, 720f),
+					_random.NextVector2(-1f, 1f, -1f, 1f).Normalized());
+				boid.WalkSpeed = _random.NextFloat(Flock.BoidWalkSpeed, Flock.BoidMaxSpeed);
 				_numBoids.Text = Flock.Flock.Boids.Count.ToString();
 			};
 			flockButtons.AddItem(addButton);

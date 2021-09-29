@@ -38,7 +38,7 @@ namespace FlockBuddyWidgets
 			AddItem(ToolStack);
 		}
 
-		private void AddBehaviorButton(EBehaviorType behavior)
+		private void AddBehaviorButton(BehaviorType behavior)
 		{
 			var flockControl = new BehaviorControl(_flock, this, behavior);
 
@@ -48,7 +48,7 @@ namespace FlockBuddyWidgets
 			AddShim();
 		}
 
-		public void AddBehavior(EBehaviorType behavior)
+		public void AddBehavior(BehaviorType behavior)
 		{
 			_flock.AddBehavior(behavior);
 
@@ -61,7 +61,7 @@ namespace FlockBuddyWidgets
 			ToolStack.InsertItemBefore(flockControl, shim);
 		}
 
-		public void RemoveBehavior(EBehaviorType behavior)
+		public void RemoveBehavior(BehaviorType behavior)
 		{
 			//remove from the flock collection
 			_flock.RemoveBehavior(behavior);

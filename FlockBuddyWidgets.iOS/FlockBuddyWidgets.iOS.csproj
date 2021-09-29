@@ -47,7 +47,7 @@
       <Version>2.0.4</Version>
     </PackageReference>
     <PackageReference Include="FlockBuddy">
-      <Version>2.0.14</Version>
+      <Version>2.0.18</Version>
     </PackageReference>
     <PackageReference Include="HadoukInput">
       <Version>2.0.33</Version>
@@ -56,7 +56,7 @@
       <Version>2.0.15</Version>
     </PackageReference>
     <PackageReference Include="MenuBuddy">
-      <Version>2.0.88</Version>
+      <Version>2.0.92</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="..\FlockBuddyWidgets.Core\FlockBuddyWidgets.Core.projitems" Label="Shared" />
