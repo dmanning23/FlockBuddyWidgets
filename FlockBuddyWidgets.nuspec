@@ -2,16 +2,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
 	<metadata>
 		<id>FlockBuddyWidgets</id>
-		<version>2.0.3</version>
+		<version>4.0.0</version>
 		<title>FlockBuddyWidgets</title>
 		<authors>dmanning23</authors>
-		<owners>dmanning23</owners>
 		<projectUrl>https://github.com/dmanning23/FlockBuddyWidgets</projectUrl>
 		<licenseUrl>https://github.com/dmanning23/FlockBuddyWidgets/blob/master/LICENSE.txt</licenseUrl>
-		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>A set of screens and widgets for building FlockBuddy MonoGame apps</description>
-		<releaseNotes />
-		<copyright>Copyright 2016</copyright>
 		<tags>android, ios, monogame</tags>
 		<dependencies>
 
@@ -25,7 +21,7 @@
 				<dependency id="MonoGame.Framework.iOS" version="3.7"/>
 			</group>
 
-			<group targetFramework="net451">
+			<group targetFramework="net452">
 				<dependency id="MonoGame.Framework.WindowsDX" version="3.7"/>
 			</group>
 
@@ -42,8 +38,8 @@
 		<file src="FlockBuddyWidgets.iOS\bin\Release\FlockBuddyWidgets.iOS.dll" target="lib\Xamarin.iOS10\FlockBuddyWidgets.iOS.dll" />
 
 		<!--WindowsDX-->
-		<file src="FlockBuddyWidgets.WindowsDX\bin\Release\FlockBuddyWidgets.WindowsDX.pdb" target="lib\net451\FlockBuddyWidgets.WindowsDX.pdb" />
-		<file src="FlockBuddyWidgets.WindowsDX\bin\Release\FlockBuddyWidgets.WindowsDX.dll" target="lib\net451\FlockBuddyWidgets.WindowsDX.dll" />
+		<file src="FlockBuddyWidgets.WindowsDX\bin\Release\FlockBuddyWidgets.WindowsDX.pdb" target="lib\net452\FlockBuddyWidgets.WindowsDX.pdb" />
+		<file src="FlockBuddyWidgets.WindowsDX\bin\Release\FlockBuddyWidgets.WindowsDX.dll" target="lib\net452\FlockBuddyWidgets.WindowsDX.dll" />
 
 	</files>
 </package>
