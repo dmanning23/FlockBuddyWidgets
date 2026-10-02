@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <PackageId>FlockBuddyWidgets</PackageId>
-    <Version>5.0.1</Version>
+    <Version>5.0.2</Version>
     <Title>FlockBuddyWidgets</Title>
     <Authors>dmanning23</Authors>
     <description>A set of screens and widgets that can be used with the FlockBuddy API</description>
